@@ -909,11 +909,26 @@ a {
     }
     .info {
         background-color: #191919;
-        height: 190vh;
+        height: 155vh;
         color: #555555;
     }
     .footer__box {
         height: 15vh;
+    }
+}
+
+@media (max-width: 360px){
+.info {
+        background-color: #191919;
+        height: 190vh;
+        color: #555555;
+    }
+}
+@media (height: 667px){
+.info {
+        background-color: #191919;
+        height: 185vh;
+        color: #555555;
     }
 }
 
