@@ -717,11 +717,27 @@ a {
     collapse {
     justify-content: flex-end;
     }
-    .ideas__img1 {
-        position: absolute;
-        z-index: 3;
-        left: 10%;
-    }
+   .ideas__box .slick-slide {
+    padding-top:80px;
+}
+
+
+.ideas__box .slick-center {
+  transform: scale(1) !important;
+  z-index: 99;
+    overflow: visible;
+
+}
+
+.ideas__box .slick-prev,
+.slick-next
+{
+    top: 60%;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
+}
     .project__box {
         justify-content: center
     }
